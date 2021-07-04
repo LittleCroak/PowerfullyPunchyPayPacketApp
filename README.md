@@ -2,5 +2,6 @@
 
 A small console app that is designed to query my TerrificallyTastefulTaxAPI (found here: https://github.com/LittleCroak/TerrificallyTastefulTaxAPI) for tax calculations.
 
-This app has been built for practice and to try out sending POST requests to my own API. 
+This was built as a learning experience and for some fun. If you have any pointers please let me know.
 
+NOTE: It goes without saying, but just in case: Do not use this app as tax/financial advice.
