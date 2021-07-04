@@ -1,4 +1,4 @@
-# PowerfullyPunchyPayPacketApp
+# The Powerfully Punchy Pay Packet App
 
 A small console app that is designed to query my TerrificallyTastefulTaxAPI (found here: https://github.com/LittleCroak/TerrificallyTastefulTaxAPI) for tax calculations.
 
