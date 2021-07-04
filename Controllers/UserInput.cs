@@ -50,6 +50,7 @@
                 Console.WriteLine("Please Enter your frequency of pay, for example: ");
                 Console.WriteLine("Weekly, Fortnightly, Monthly");
                 incString = Console.ReadLine();
+                incString = incString.ToLowerInvariant();
                 correctInput = stringErrorChecker.stringErrorChecker(incString);            
             }
             return incString;

@@ -30,6 +30,7 @@
             catch(Exception e)
             {
                Console.WriteLine("The API encountered an error, ensure your internet is connect and you have input correct data");
+                Console.WriteLine(e);
             }
 
             // Format the response object and print it

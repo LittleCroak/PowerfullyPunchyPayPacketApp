@@ -6,7 +6,6 @@ namespace PowerfullyPunchyPayPacketApp.Controllers
     {
         public bool stringErrorChecker(string incString)
         {
-            incString = incString.ToLowerInvariant();
             return checkTheIncStringForErrors(incString);
         }
         private bool checkTheIncStringForErrors(string incString)
