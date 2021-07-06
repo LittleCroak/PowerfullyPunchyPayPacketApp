@@ -12,7 +12,8 @@
         }
         private HttpClient PortAndURISetup(HttpClient client)
         {
-            client.BaseAddress = new Uri("https://localhost:44375/");
+            ReadFromTextFile readFromTextFile = new ReadFromTextFile();
+            client.BaseAddress = new Uri(readFromTextFile.readFromText("\apiURL.txt"));
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
